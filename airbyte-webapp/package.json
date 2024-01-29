@@ -1,6 +1,7 @@
 {
   "name": "airbyte-webapp",
   "private": true,
+  "homepage": "airbyte",
   "engines": {
     "node": "18.15.0",
     "pnpm": "8.6.12"
