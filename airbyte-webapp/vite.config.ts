@@ -20,6 +20,7 @@ import {
 
 export default defineConfig(() => {
   const config: UserConfig = {
+    base: "",
     plugins: [
       environmentVariables(),
       basicSsl(),

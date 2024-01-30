@@ -81,7 +81,7 @@ const App: React.FC = () => {
   );
 };
 
-const router = createBrowserRouter([{ path: "*", element: <App /> }], {basename: "/airbyte"});
+const router = createBrowserRouter([{ path: "*", element: <App /> }], { basename: "/airbyte" });
 
 const OssApp: React.FC = () => <RouterProvider router={router} />;
 export default React.memo(OssApp);

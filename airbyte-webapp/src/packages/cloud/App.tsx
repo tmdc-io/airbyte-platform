@@ -83,7 +83,7 @@ const App: React.FC = () => {
   );
 };
 
-const router = createBrowserRouter([{ path: "*", element: <App />}], {basename: "/airbyte"});
+const router = createBrowserRouter([{ path: "*", element: <App /> }], { basename: "/airbyte" });
 
 const CloudApp: React.FC = () => <RouterProvider router={router} />;
 export default React.memo(CloudApp);
