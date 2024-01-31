@@ -20,7 +20,7 @@ import {
 
 export default defineConfig(() => {
   const config: UserConfig = {
-    base: "",
+    base: "/airbyte/",
     plugins: [
       environmentVariables(),
       basicSsl(),
