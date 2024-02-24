@@ -1,2 +1,1 @@
 # Charts are downloaded at install time with `helm dep build`.
-# charts

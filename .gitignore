@@ -80,7 +80,6 @@ resources/examples/airflow/logs/*
 airbyte-config/**/resources/seed/oss_catalog.json
 
 # Helm charts .tgz dependencies
-charts/**/charts
 
 # Snyk
 .dccache
