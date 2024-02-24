@@ -1,0 +1,13 @@
+apiVersion: configuration.konghq.com/v1
+kind: KongIngress
+metadata:
+  name: timeout-kong-ingress
+route:
+  strip_path: false
+proxy:
+  protocol: http
+  path: /
+  connect_timeout: 600000
+  retries: 3
+  read_timeout: 600000
+  write_timeout: 600000
